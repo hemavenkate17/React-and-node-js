@@ -66,8 +66,9 @@ const WFMHome=()=>{
                 
                     let response =
                       await axios.put("http://localhost:8000/employees/statusupdate?status="+status+"&id="+Employee_id)
+                      alert("softlock request confirmed")
                      setViewData(response.data)
-                     alert("Softlock request confirmed")
+                   
                   
                   }
                   

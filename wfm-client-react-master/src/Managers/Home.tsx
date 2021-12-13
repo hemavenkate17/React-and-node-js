@@ -146,7 +146,7 @@ const ManagerHome=()=>{
                             </input>
                             <br/>
                             <br/>
-                           <button type="submit" id="send" className="btn btn-dark" onClick={()=>addSoftlockRequest(Employee_id,Manager)}>Send Request</button>
+                           <button type="submit" id="send" className="btn btn-dark" onClick={()=>addSoftlockRequest(Employee_id,Manager)}>Send</button>
                            
                            <button type="submit" id="close" className="btn btn-danger" onClick={()=>closeform()}>Close</button> 
                      
